@@ -1,12 +1,45 @@
-# React + Vite
+# Expense Tracker Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive and user-friendly **Expense Tracking Dashboard** built with **React** and **Tailwind CSS**. This app helps users visualize and manage their monthly expenses efficiently through charts, filters, and summary insights.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠 Tech Stack & Libraries Used
 
-## Expanding the ESLint configuration
+| Tool/Library | Purpose |
+|--------------|---------|
+| **React** | Core library for building UI components |
+| **Tailwind CSS** | Utility-first CSS framework for responsive styling |
+| **Vite** | Fast bundler & dev server for React |
+| **Chart.js** | Charting library for bar, pie, and line charts |
+| **React Chart.js 2** (`react-chartjs-2`) | React wrapper for Chart.js |
+| **XLSX** | To parse Excel `.xlsx` files to JSON |
+| **chartjs-plugin-datalabels** | Plugin to display data values directly on the charts |
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Features
+
+- 📊 Budget vs Actual Bar Chart
+- 🥧 Category-wise Pie Chart
+- 📈 Most Used Categories/Payment Methods Chart
+- ⚠️ Overspending Alerts with Budget Insights
+- 📅 Filter by Date, Category & Payment Method
+- ➕ Add New Expenses (via popup form)
+- 📤 Upload New Excel Files (dynamic parsing)
+- 📁 Excel file auto-loaded on initial startup
+
+---
+
+## 📦 Installation & Setup
+
+### Step 1: Clone the Repository
+
+```bash
+git clone https://github.com/your-username/expense-dashboard.git
+cd expense-dashboard
+npm install
+npm install react-chartjs-2 chart.js chartjs-plugin-datalabels xlsx
+npm run dev
+
+
