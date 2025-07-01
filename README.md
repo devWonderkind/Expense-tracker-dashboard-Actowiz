@@ -4,7 +4,51 @@ An interactive and user-friendly **Expense Tracking Dashboard** built with **Rea
 
 ---
 
-## 🛠 Tech Stack & Libraries Used
+---
+
+## 📚 Table of Contents
+
+- [📌 Overview](#-overview)
+- [🚀 Getting Started](#-getting-started)
+  - [🛠 Tech Stack & Libraries Used](#Tech Stack & Libraries Used)
+  - [🔧 Prerequisites](#-prerequisites)
+  - [📥 Installation](#-installation)
+  - [🛠️ Usage](#️-usage)
+- [🖼️ Screenshots](#️-screenshots)
+
+
+---
+
+## 📌 Overview
+
+**Expense-tracker-dashboard-Actowiz** is a modern React-powered financial dashboard designed to help developers and users efficiently manage and visualize their expenses. With built-in Excel import functionality, smart filters, chart visualizations, and overspending alerts, it provides real-time insights into budgeting and financial behavior.
+
+---
+
+### ✨ Core Features
+
+- **📊 Budget vs Actual Insights** – Track planned vs. actual spending per category.
+- **📁 Excel Import** – Automatically loads expense data from `.xlsx` files.
+- **📈 Interactive Charts** – Line, pie, and bar charts built using Chart.js.
+- **📍 Smart Filters** – Filter by date, category, and payment method.
+- **⚠️ Overspending Alerts** – Highlights categories where expenses exceed budget.
+- **➕ Add Expense** – Easily add new transactions using a modal form.
+- **🎯 Dynamic Options** – Category and payment method fields adapt to existing data.
+
+---
+
+## 🚀 Getting Started
+
+### 🔧 Prerequisites
+
+Ensure you have the following installed on your machine:
+
+- **Node.js** (>= 18.x)
+- **npm** (>= 9.x)
+
+---
+
+### 🛠 Tech Stack & Libraries Used
 
 | Tool/Library | Purpose |
 |--------------|---------|
@@ -18,28 +62,21 @@ An interactive and user-friendly **Expense Tracking Dashboard** built with **Rea
 
 ---
 
-## 🚀 Features
+### 📥 Installation
 
-- 📊 Budget vs Actual Bar Chart
-- 🥧 Category-wise Pie Chart
-- 📈 Most Used Categories/Payment Methods Chart
-- ⚠️ Overspending Alerts with Budget Insights
-- 📅 Filter by Date, Category & Payment Method
-- ➕ Add New Expenses (via popup form)
-- 📤 Upload New Excel Files (dynamic parsing)
-- 📁 Excel file auto-loaded on initial startup
+```bash
+# 1. Clone the repository
+git clone https://github.com/your-username/expense-tracker-dashboard-actowiz.git
+
+# 2. Install the dependencies
+npm install
+
+# 2. Install the dependencies
+npm run dev
+
 
 ---
 
-## 📦 Installation & Setup
 
-### Step 1: Clone the Repository
-
-```bash
-git clone https://github.com/your-username/expense-dashboard.git
-cd expense-dashboard
-npm install
-npm install react-chartjs-2 chart.js chartjs-plugin-datalabels xlsx
-npm run dev
 
 
