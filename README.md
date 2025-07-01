@@ -4,8 +4,6 @@ An interactive and user-friendly **Expense Tracking Dashboard** built with **Rea
 
 ---
 
----
-
 ## 📚 Table of Contents
 
 - [📌 Overview](#-overview)
@@ -13,7 +11,6 @@ An interactive and user-friendly **Expense Tracking Dashboard** built with **Rea
   - [🛠 Tech Stack & Libraries Used](#Tech Stack & Libraries Used)
   - [🔧 Prerequisites](#-prerequisites)
   - [📥 Installation](#-installation)
-  - [🛠️ Usage](#️-usage)
 - [🖼️ Screenshots](#️-screenshots)
 
 
@@ -74,8 +71,9 @@ npm install
 # 2. Install the dependencies
 npm run dev
 
-
----
+## Screenshots
+![Dashboard](src/assets/dashboardInitial.webp)
+![Dashboard](src/assets/updateDashbored.webp)
 
 
 
