@@ -70,6 +70,7 @@ npm install
 
 # 2. Install the dependencies
 npm run dev
+```
 
 ## Screenshots
 ![Dashboard](src/assets/dashboardInitial.webp)
